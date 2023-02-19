@@ -25,6 +25,7 @@ namespace RaceTo21
 
         /* Gets the user input for number of players.
          * Is called by Game object.
+         * no parameter
          * Returns number of players to Game object.
          */
         public int GetNumberOfPlayers()
@@ -42,10 +43,10 @@ namespace RaceTo21
             return numberOfPlayers;
         }
 
-        /* Gets the name of a player
+        /* Gets the name of players
          * Is called by Game object
          * Game object provides player number
-         * Returns name of a player to Game object
+         * Returns name of players to Game object
          */
         public string GetPlayerName(int playerNum)
         {
@@ -82,8 +83,12 @@ namespace RaceTo21
         }
 
 
-        /*show all cards on current players' hand*/
-       public void ShowHand(Player player)
+        /* show all cards on current players' hand
+         * Is called by ShowHands() method
+         * ShowHands() method provides player
+         * Returns void
+         */
+        public void ShowHand(Player player)
         {
             if (player.cards.Count > 0)
             {
@@ -110,7 +115,10 @@ namespace RaceTo21
             }
         }
 
-        /*show all cards on each players' hand*/
+        /*show all cards on each players' hand
+         * Is called by Game object
+         * Game object provides player list
+         * Returns void*/
         public void ShowHands(List<Player> players)
         {
             foreach (Player player in players)

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\78649\\Downloads\\-Homework-4_Draft-main\\-Homework-4_Draft-main\\RaceTo21_W4_Starter\\RaceTo21_W3\\RaceTo21.csproj": {}
+    "C:\\Users\\78649\\Downloads\\-Homework-4_Draft-main\\Homework-5\\RaceTo21_W4_Starter\\RaceTo21_W3\\RaceTo21.csproj": {}
   },
   "projects": {
-    "C:\\Users\\78649\\Downloads\\-Homework-4_Draft-main\\-Homework-4_Draft-main\\RaceTo21_W4_Starter\\RaceTo21_W3\\RaceTo21.csproj": {
+    "C:\\Users\\78649\\Downloads\\-Homework-4_Draft-main\\Homework-5\\RaceTo21_W4_Starter\\RaceTo21_W3\\RaceTo21.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\78649\\Downloads\\-Homework-4_Draft-main\\-Homework-4_Draft-main\\RaceTo21_W4_Starter\\RaceTo21_W3\\RaceTo21.csproj",
+        "projectUniqueName": "C:\\Users\\78649\\Downloads\\-Homework-4_Draft-main\\Homework-5\\RaceTo21_W4_Starter\\RaceTo21_W3\\RaceTo21.csproj",
         "projectName": "RaceTo21_W3",
-        "projectPath": "C:\\Users\\78649\\Downloads\\-Homework-4_Draft-main\\-Homework-4_Draft-main\\RaceTo21_W4_Starter\\RaceTo21_W3\\RaceTo21.csproj",
+        "projectPath": "C:\\Users\\78649\\Downloads\\-Homework-4_Draft-main\\Homework-5\\RaceTo21_W4_Starter\\RaceTo21_W3\\RaceTo21.csproj",
         "packagesPath": "C:\\Users\\78649\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\78649\\Downloads\\-Homework-4_Draft-main\\-Homework-4_Draft-main\\RaceTo21_W4_Starter\\RaceTo21_W3\\obj\\",
+        "outputPath": "C:\\Users\\78649\\Downloads\\-Homework-4_Draft-main\\Homework-5\\RaceTo21_W4_Starter\\RaceTo21_W3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\78649\\AppData\\Roaming\\NuGet\\NuGet.Config",

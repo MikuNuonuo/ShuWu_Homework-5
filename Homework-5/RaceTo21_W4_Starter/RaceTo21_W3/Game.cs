@@ -32,6 +32,7 @@ namespace RaceTo21
 
         /* Adds a player to the current game
          * Called by DoNextTask() method
+         * Return void
          */
         public void AddPlayer(string n)
         {
@@ -42,7 +43,7 @@ namespace RaceTo21
          * as represented by field nextTask
          * Calls methods required to complete task
          * then sets nextTask.
-         * calls DealTopCard() method
+         * calls DealTopCard(), AddPlayer(), GetNumberOfPlayers(), GetPlayerName(), OfferACard(), AnnounceWinner(), DoFinalScoring() method
          */
         public void DoNextTask()
         {
@@ -148,7 +149,7 @@ namespace RaceTo21
                         currentPlayer = 0; //back to the first player
                         PlayerShuffle(); //shuffle players
                         players.Remove(winner);//remove winner from players
-                        players.Add(winner);//add winner to the end of players as the dealer
+                        players.Add(winner);//page2, leve3, add winner to the end of players as the dealer
                         nextTask = Task.IntroducePlayers;
                     }
                     else
