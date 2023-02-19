@@ -1,0 +1,29 @@
+﻿using System;
+using System.Collections.Generic;
+
+namespace RaceTo21
+{
+	public class Player
+	{
+		public string name {
+			get; private set;
+		}
+		public List<Card> cards = new List<Card>(); //change Sting to Card
+		public PlayerStatus status = PlayerStatus.active;
+		public int score;
+
+		public Player(string n)
+		{
+			name = n;
+        }
+
+		/* Introduces player by name
+		 * Called by CardTable object
+		 */
+		public void Introduce(int playerNum)
+		{
+			Console.WriteLine("Hello, my name is " + name + " and I am player #" + playerNum);
+		}
+	}
+}
+
